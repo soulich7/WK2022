@@ -1,0 +1,175 @@
+body/*achtergrond-afbeelding voor alle pagina's*/{
+  background-image: url("https://digitalhub.fifa.com/transform/412435a1-ebae-4d3c-be0b-b24b30b13c74/FWC-2");
+  background-size: cover;
+}
+
+.background{
+  background-image: url("https://digitalhub.fifa.com/transform/412435a1-ebae-4d3c-be0b-b24b30b13c74/FWC-2");
+}
+
+h1/*opmaak van de h-tags*/{
+  margin-top: 25px;
+  font-family: Georgia;
+}
+p/*opmaak van de p-tags*/{
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+  text-align/*Positie van de tekst*/: center;
+  font-family/*De style van de tekst*/: Georgia, "Times new Roman", serif;
+  color: rgb(72, 35, 126);
+  border: 4px solid;
+  color: #400080;
+  background-color: #F5F5F5;
+  border-radius/*De vorm van de hoeken van de box*/: 20px 20px 20px 20px;
+  width/*De breedte van de box*/: 700px;
+  margin:0 auto;
+  margin-top/*afstand tot de top*/:50px;
+  padding/*afstand van de tekst tot de rand*/: 10px;
+}
+
+/*Als je naar een class wilt verwijzen, moet je beginnen met een punt en daarna de naam van de tag, zoals .stadion, om naar de class-stadion te verwijzen.*/
+.stadion{
+  margin-top: 30px;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.algemeneinformatie {
+  text-align: center;
+  font-family: Georgia;
+}
+
+/* Hieronder kun je een achtergrond kleur toevogen voor de navigatiebalk. */
+.topnav {
+  background-color: #6633CC;
+  overflow: hidden;
+}
+/* Hieronder kun je de link een style geven. */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration/*dit haalt de lijn onder de link weg*/: none;
+  font-size: 17px;
+}
+/* Hieronder kun je de kleur van de link veranderen bij hover. */
+.topnav a:hover {
+  background-color: #ddd;
+  color: purple;
+}
+/* Hieronder kun je een kleur geven aan de link. */
+.topnav a.active {
+  background-color: #660099;
+  color: white;
+}
+
+.img-plaatje {
+  width: 300px;
+}
+
+/*hieronder kan ik de tabel opmaken die ik in stadion.html gebruik en landen.html*/
+table, th, td {
+  border: 0px;
+  margin: 30px;
+  padding: 20px;
+}
+th {
+  color: white;
+  background-color: #4d0099;
+}
+tr {
+  color: #330066;
+  background-color: #d9b3ff;
+}
+
+.image1{
+  border: 3px solid;
+  border-color: #000060;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.image2{
+  border: 3px solid;
+  border-color: white;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+.image3{
+  border: 3px solid;
+  border-color: #cc0000;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.image4{
+  border: 3px solid;
+  border-color: #0000e6;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.lijst{
+  font-size: 20px;
+  font-variant-caps: small-caps;
+  color:#2e004d;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landen{
+  text-align: center;
+}
+
+/*de margin-left geeft de afstand tussen de linkerkant en de tabel. de margin-top geeft de afstand tussen de tabellen. ik heb daar een negatief getal gebruikt, zodat de tabellen naast elkaar komen. en de width geeft de breedte van de tabel.*/
+.groepA{
+  margin-left: 80px;
+  margin-top: 80px;
+  width: 400px;
+}
+
+.groepB{
+  margin-left: 750px;
+  margin-top: -365px;
+  width: 400px;
+}
+
+.groepC{
+  margin-left: 80px;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.groepD{
+  margin-left: 750px;
+  margin-top: -365px;
+  width: 400px;
+}
+
+.groepE{
+  margin-left: 80px;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.groepF{
+  margin-left: 750px;
+  margin-top: -365px;
+  width: 400px;
+}
+
+.groepG{
+  margin-left: 80px;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.groepH{
+  margin-left: 750px;
+  margin-top: -365px;
+  width: 400px;
+}
